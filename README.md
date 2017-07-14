@@ -8,4 +8,5 @@ After that the 3D points together with a specified covariance (in this case the 
 
 In the end a world model is obtained with the x,y,z coordinates of detected faces together with an ID number per face in one world model. 
 
+<img src="showing_second_face_model.png" style="width:304px;height:228px;">
 
