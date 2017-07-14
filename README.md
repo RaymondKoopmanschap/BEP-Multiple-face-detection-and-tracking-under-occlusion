@@ -1,4 +1,6 @@
-This project was used for my BEP multiple face detection and tracking under occlusion. 
+This project was used for my BEP multiple face detection and tracking under occlusion.
+
+ <font size="6">Summary</font> 
  
 It uses  <a href="https://www.w3schools.com/html/">Openface</a> to get ROIs from raw images using the kincet xbox 360 camera. Then it transform the ROIs to 3D points using <a href="https://www.w3schools.com/html/">get_3d_point_from_image_roi_node.cpp</a> and the depth information of the kinect camera. This 3D points are x,y,z coordinates with respect to the kinect camera. 
  
@@ -9,5 +11,10 @@ After that the 3D points together with a specified covariance (in this case the 
 In the end a world model is obtained with the x,y,z coordinates and respective covariance matrix of detected faces together with an ID number per face in one world model. Visualized in RVIZ 
  
 <img src="showing_second_face_model.png" style="width:304px;height:228px;"> 
- 
-BEP_project_face_tracking 
+
+ <font size="6">Instructions to run application</font> 
+
+1. git clone in your ROS directory the following:
+
+   dsa
+
