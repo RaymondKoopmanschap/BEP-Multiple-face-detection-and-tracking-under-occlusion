@@ -12,4 +12,3 @@ In the end a world model is obtained with the x,y,z coordinates and respective c
  
 <img src="showing_second_face_model.png" style="width:304px;height:228px;"> 
 
- <font size="6">Instructions to run application</font> 
